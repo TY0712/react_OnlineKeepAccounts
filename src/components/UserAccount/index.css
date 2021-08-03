@@ -1,0 +1,30 @@
+
+.list-button{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70%;
+}
+.plan-title{
+    display: flex;
+    margin-left: 7%;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 80%;
+}
+.site-layout-head{
+    background: rgb(255, 251, 220);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 80px;
+}
+@media (max-width:1080px){
+    .list-button{
+        margin-left: 50%;
+    }
+    .Statistic-style{
+        font-size: smaller;
+    }
+}

@@ -1,0 +1,14 @@
+.addbill-list{
+    display:grid;
+    height: 560px;
+    grid-template-columns:repeat(4,20%);
+    column-gap: 24px;
+    row-gap: 2px;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:1080px){
+    .addbill-list{
+        grid-template-columns:repeat(2, 40%);
+    }
+}
